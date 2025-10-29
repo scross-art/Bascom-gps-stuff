@@ -101,3 +101,27 @@ Main:
 
 
    loop
+
+enkoder:
+
+   dim b as byte
+   B = Encoder(pine.5 , Pine.4 , encleft , encright ,0)
+return
+
+encleft:
+   if encval > 1 then decr encval     '''!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!    1  any dramas make it 1 based
+return
+
+encright:
+   if encval <1000 then incr encval
+return
+'/ menu subs
+
+
+end
+$include "font8x8.font"
+$include "font16x16.FONT"
+$include "24.font"
+$include "28.font"
+'$include "36.font"
+
