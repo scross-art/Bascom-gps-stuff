@@ -1,3 +1,4 @@
+'''basic
 $nocompile
 
 sub MetricSpeed()
@@ -626,3 +627,4 @@ Function Odo()as single
 
    endfunction:
 End Function
+'''
