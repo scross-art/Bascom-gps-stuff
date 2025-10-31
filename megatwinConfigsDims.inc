@@ -26,8 +26,8 @@ Config Debounce = 300
 'MAIN GLOBALS
 
 'GLOBAL GPS ROUTINES
-const homelatt = -37.702215
-const homelon = 147.840007
+const homelatt = -33.333333
+const homelon = 133.333333
 
  DIM FURLATT AS SINGLE
  DIM FURLON AS SINGLE
